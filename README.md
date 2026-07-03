@@ -25,7 +25,7 @@ This repository serves as a centralized, production-grade lab environment valida
 * Deployed scalable dynamic routing architectures across multi-router topologies by configuring Single-Area OSPFv2 routing protocols.
 * Conducted protocol-level troubleshooting operations using Wireshark to isolate DHCP DORA sequences and analyze network frame structures.
 
-### 🛡️ [3. Security Operations, Identity & Access (SC-200)](./Security-Operations-SC200/)
+### 🛡️ [3. Security Operations, Identity & Access](./Security-IAM-Operations-SC)
 * Configured Defender preset policies, domain impersonation blocks, and custom KQL hunting queries for malicious executable attachments.
 * Executed advanced KQL hunting queries against Microsoft Defender for Endpoint telemetry and email event log databases.
 * Engineered network monitoring by routing Firewall diagnostics and App Service logs into Sentinel to build scheduled analytics detection rules.
