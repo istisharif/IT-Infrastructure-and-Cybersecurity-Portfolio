@@ -7,7 +7,7 @@ This deployment validates core competencies in enterprise cloud architecture, hy
 
 ## 🚀 Lab Deployment Stages & Verification
 
-### 1. Hybrid Identity Infrastructure
+### [1. Hybrid Identity Infrastructure](./01-hybrid-identity.md)
 * **Implementation:** Configured and deployed an on-premises Active Directory Domain Services (AD DS) simulation environment and synchronized objects to cloud-native Entra ID using Azure AD Connect.
 * **Security Controls:** Enforced Multi-Factor Authentication (MFA) registration requirements and enabled Self-Service Password Reset (SSPR) writeback capabilities.
 * **Verification Token:** Managed user state sync status verified via the Microsoft Entra Admin Center synchronization health dashboard.
