@@ -12,24 +12,24 @@ This deployment validates core competencies in enterprise cloud architecture, hy
 * **Security Controls:** Enforced Multi-Factor Authentication (MFA) registration requirements and enabled Self-Service Password Reset (SSPR) writeback capabilities.
 * **Verification Token:** Managed user state sync status verified via the Microsoft Entra Admin Center synchronization health dashboard.
 
-### 2. Secure Perimeter & Virtual Network Routing
+### [2. Secure Virtual Network Routing & Traffic Controls](./02-secure-routing.md)
 * **Implementation:** Provisioned isolated Virtual Networks (VNets) paired with granular network layer separation. Route tables were explicitly mapped to bypass default routing hops.
 * **Traffic Control:** Configured an Azure Firewall instance alongside strict Network Security Groups (NSGs) to enforce ingress/egress stateful filtering patterns.
 * **Security Rules:** Blocked all direct public RDP/SSH exposure, limiting management paths exclusively through private, encrypted gateways.
 
-### 3. Cross-Region Connectivity
+### [3. Cross-Region Connectivity](./03-cross-region.md)
 * **Implementation:** Interconnected distinct geographic cloud locations by provisioning high-speed VNet Peering links. 
 * **Hybrid Tunneling:** Implemented a secure Site-to-Site VPN tunnel utilizing Azure Virtual Network Gateways to connect remote local office endpoints to central cloud assets.
 
-### 4. High Availability & Data Isolation
+### [4. High-Availability Systems & Secure Data Access](./04-high-availability.md)
 * **Implementation:** Deployed an Azure Load Balancer to distribute incoming application traffic across redundant computational backends. 
 * **Secure Access:** Configured an Azure Bastion host to allow secure TLS-based browser management of virtual machines without public IP addresses. Implemented Private Endpoints to isolate critical database storage accounts behind private cloud network addresses.
 
-### 5. Automated Compute Scaling
+### [5. Automated Scale-Out Compute Environments](./05-compute-elasticity.md)
 * **Implementation:** Engineered automated compute capacity tiers by deploying Virtual Machine Scale Sets (VMSS) tied to dynamic CPU utilization thresholds.
 * **Image Management:** Utilized generalized Golden Images inside Availability Sets to prevent single points of hardware failure.
 
-### 6. Business Continuity & Platform Monitoring
+### [6. Business Continuity & Platform Monitoring Frameworks](./06-monitoring-backup.md)
 * **Implementation:** Established a centralized Recovery Services Vault mapping automated Azure Backups to virtual assets.
 * **Diagnostics:** Deployed Network Watcher to run automated packet captures and connection troubleshooting checks to verify systemic network path health.
 
